@@ -3,7 +3,6 @@ import re
 import shutil
 from pathlib import Path
 
-
 class Cleaner:
 
     def __init__(self, path_to_clean):
