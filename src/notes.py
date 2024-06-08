@@ -1,6 +1,5 @@
 from collections import UserDict
 
-
 class Note(UserDict):
     def add(self, note_title, note_text):
 
@@ -39,6 +38,4 @@ class Note(UserDict):
             result = '\n   All notes:\n\n'
             for title, text in self.data.items():
                 result += f'  {title.title()}: {text}\n'
-                # result += f"Title: {title.title()} Text: {text}\n"
-                # print(f"Title: {title}\nText: {text}\n")
             return result
